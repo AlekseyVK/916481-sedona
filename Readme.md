@@ -1,7 +1,7 @@
 ﻿# Личный проект «Седона»
 
 * Студент: [Киселев Алексей](https://up.htmlacademy.ru/htmlcss/23/user/916481).
-* Наставник:[Вадим Новаш](https://up.htmlacademy.ru/htmlcss/23/user/8589).
+* Наставник: [Вадим Новаш](https://up.htmlacademy.ru/htmlcss/23/user/8589).
 
 ---
 
