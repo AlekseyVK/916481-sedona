@@ -36,14 +36,29 @@
     <button class="hide-request">Поиск гостиницы в Седоне</button>
     <section class="modal hotel-search">
       <h2 class="visually-hidden">Поиск гостиницы в Седоне</h2>
-      <!-- Здесь будет форма ввода запроса
-      <p>
-        Дата заезда:
-        Дата выезда:
-        Взрослые:
-        Дети: <input> <br>
-        <button class="search-request">НАЙТИ</button>
-      </p>-->
+      <form class="hotel-request" action="#" method="post">
+        <p class="arrival-date">
+          <label for="arrival-date"> Дата заезда:</label>
+          <input id="arrival-date" type="text" name="date"
+        value="" placeholder="24 апреля 2017">
+        </p>
+        <p class="departure-date">
+          <label for="departure-date"> Дата выезда:</label>
+          <input id="departure-date" type="text" name="date"
+                 value="" placeholder="4 июля 2017">
+        </p>
+        <p class="adults-total">
+          <label for="adults-total"> Взрослые:</label>
+          <input id="adults-total" type="text" name="adl"
+                 value="" placeholder="2">
+        </p>
+        <p class="child-total">
+          <label for="child-total"> Дети:</label>
+          <input id="child-total" type="text" name="chl"
+                 value="" placeholder="0">
+        </p>
+        <button class="send-request" type="submit">Найти</button>
+      </form>
     </section>
     <section class="resort-map">
       <h2 class="visually-hidden">Карта Седоны</h2>
